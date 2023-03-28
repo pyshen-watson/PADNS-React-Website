@@ -1,7 +1,7 @@
 import './App.css'
-import Welcome from './Component/Welcome'
-import Clickme from './Component/Clickme'
-import Counter from './Component/Counter'
+import Welcome from './Components/Welcome'
+import Clickme from './Components/Clickme'
+import Counter from './Components/Counter'
 
 function App() {
 
