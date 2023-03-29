@@ -1,6 +1,6 @@
 import { createHashRouter } from "react-router-dom"
-import Index from "../Pages"
-import About from "../Pages/about"
+import Index from "../Pages/Index"
+import About from "../Pages/About"
 import RootLayout from "../Components/RootLayout"
 
 const router = createHashRouter([
