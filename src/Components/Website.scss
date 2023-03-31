@@ -1,0 +1,24 @@
+.website{
+
+    background-color: orange;
+    margin: 1rem 2rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+
+
+    h2{
+        color: black;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    img{
+        width: 10vw;
+        cursor: pointer;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}

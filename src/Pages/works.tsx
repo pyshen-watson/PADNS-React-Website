@@ -1,7 +1,13 @@
-import React from 'react'
+import './works.scss'
+import Website from "@Components/Website"
+import WebsiteList from "@Data/WebsiteList"
 
 export default function Works() {
   return (
-    <h1>Works</h1>
+    <div className="website-grid">
+      {
+        WebsiteList.map((site) => <Website site={site}/> )
+      }
+    </div>
   )
 }
