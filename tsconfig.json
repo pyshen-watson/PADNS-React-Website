@@ -20,6 +20,7 @@
       "@Page/*": ["Pages/*"],
       "@Components/*": ["Components/*"],
       "@Assets/*": ["Assets/*"],
+      "@Data/*": ["Data/*"],
     }
   },
   "include": ["src"],
