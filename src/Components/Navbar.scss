@@ -15,10 +15,11 @@
         flex-direction: column;
         justify-content: center;
         border-right: 1px solid gray;
+        border-bottom: 1px solid gray;
 
         * {
             color: white;
-            font-size: 3rem;
+            font-size: 2.5rem;
 
             &:hover {
                 color: orange;

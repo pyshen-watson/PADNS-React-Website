@@ -10,7 +10,7 @@ import Contact from '@Page/contact'
 function App() {
 
   const PageList = [
-    { name: "Index", path: "/", element: <Index /> },
+    { name: "Home", path: "/", element: <Index /> },
     { name: "About", path: "/about", element: <About /> },
     { name: "Works", path: "/works", element: <Works /> },
     { name: "CV", path: "/cv", element: <CV /> },
