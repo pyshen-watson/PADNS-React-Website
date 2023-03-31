@@ -1,10 +1,10 @@
-import { NavLink, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
+import Navbar from './Components/Navbar'
 import Index from './Pages'
 import About from './Pages/about'
 import Works from './Pages/works'
 import CV from './Pages/cv'
 import Contact from './Pages/contact'
-import './App.css'
 
 function App() {
 
@@ -16,17 +16,9 @@ function App() {
     { name: "Contact", path: "/contact", element: <Contact /> }
   ]
 
-
   return (
     <>
-      <nav className='navbar'>
-        {
-          PageList.map(page =>
-            <div className="link">
-              <NavLink to={page.path}>{page.name}</NavLink>
-            </div>)
-        }
-      </nav>
+      <Navbar PageList={PageList}/>
       <Routes>
         {PageList.map(page => <Route path={page.path} element={page.element} />)}
       </Routes>

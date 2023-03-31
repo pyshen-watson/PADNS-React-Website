@@ -1,0 +1,28 @@
+.navbar {
+
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+
+    .link {
+        height: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-right: 1px solid gray;
+
+        * {
+            color: white;
+            font-size: 3rem;
+
+            &:hover {
+                color: orange;
+            }
+        }
+    }
+}
