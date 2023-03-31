@@ -19,6 +19,7 @@
     "paths": {
       "@Page/*": ["Pages/*"],
       "@Components/*": ["Components/*"],
+      "@Assets/*": ["Assets/*"],
     }
   },
   "include": ["src"],
