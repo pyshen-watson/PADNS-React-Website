@@ -1,10 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
-import Navbar from './Components/Navbar'
-import Index from './Pages'
-import About from './Pages/about'
-import Works from './Pages/works'
-import CV from './Pages/cv'
-import Contact from './Pages/contact'
+import Navbar from '@Components/Navbar'
+
+import Index from '@Page/index'
+import About from '@Page/about'
+import Works from '@Page/works'
+import CV from '@Page/cv'
+import Contact from '@Page/contact'
 
 function App() {
 
